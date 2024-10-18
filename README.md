@@ -58,16 +58,18 @@ To get started with this project, follow these steps:
    yarn install
 
 ### Redux Setup 
-Our Redux setup is organized into a redux folder. Within this folder, you'll find store.js which sets up the Redux store. Additionally, there is a feature folder that contains different slices for handling various parts of the state.
+Our Redux setup is organized into a `redux` folder. Within this folder, you'll find `store.js` which sets up the Redux store. Additionally, there is a `feature` folder that contains different slices for handling various parts of the state.
 
-Store Configuration
-The store.js file is responsible for configuring the Redux store. Here’s a snippet of how it’s set up:
+#### Store Configuration
 
+The `store.js` file is responsible for configuring the Redux store. Here’s a snippet of how it’s set up:
+
+```js
 import { configureStore } from "@reduxjs/toolkit";
 import productReducer from './feature/ProductSlice';
 import modalReducer from "./feature/modalSlice";
 import { apiSlice } from "./feature/apiSlice";
-import cartSlice from "./feature/cartSlice';
+import cartSlice from "./feature/cartSlice";
 import authReducer from './feature/authSlice';
 
 export const store = configureStore({
@@ -81,13 +83,3 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware)
 });
-
-
-Feature Folder
-Inside the redux folder, there is a feature folder that contains the following slices:
-ProductSlice.js: Manages the state related to products.
-ModalSlice.js: Manages the state related to modal visibility and interactions.
-apiSlice.js: Handles API calls and state management related to data fetching.
-cartSlice.js: Manages the state of the shopping cart.
-authSlice.js: Manages user authentication and related state.
-By organizing our Redux state management this way, we keep our code modular and easier to maintain.
