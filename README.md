@@ -83,11 +83,13 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware)
 });
+``
+Inside the redux folder, there is a feature folder that contains the following slices:
 
-Inside the redux folder, there is a feature folder that contains the following slices:
-ProductSlice.js: Manages the state related to products.
-ModalSlice.js: Manages the state related to modal visibility and interactions.
-apiSlice.js: Handles API calls and state management related to data fetching.
-cartSlice.js: Manages the state of the shopping cart.
-authSlice.js: Manages user authentication and related state.
-By organizing our Redux state management this way, we keep our code modular and easier to maintain.
+*   ProductSlice.js: Manages the state related to products.
+*   ModalSlice.js: Manages the state related to modal visibility and interactions.
+*   apiSlice.js: Handles API calls and state management related to data fetching.
+*   cartSlice.js: Manages the state of the shopping cart.
+*   authSlice.js: Manages user authentication and related state.
+    
+By organizing our Redux state management this way, we keep our code modular and easier to maintain.
