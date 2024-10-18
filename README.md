@@ -46,5 +46,11 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/ecommerce-clothing-shop.git
-   cd ecommerce-clothing-shop
+   git clone https://github.com/yasibena/redux-react-ecommerce.git
+   cd ecommerce
+
+   Start the development server with Vite:
+   npm run dev
+   # or
+   yarn dev
+   Open your browser and visit http://localhost:3000 to see the app in action.
