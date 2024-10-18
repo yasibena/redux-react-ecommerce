@@ -24,14 +24,15 @@ Welcome to the eCommerce Clothing Shop project! This application is built using 
 
 ## Features
 
-- User-friendly shopping interface
-- Product listings with detailed views
-- Filter products by color, price range, size, and availability
-- Shopping cart functionality
-- User authentication and account management
-- Responsive design with TailwindCSS
-- State management using Redux
-- Backend services and authentication handled by Supabase
+-User-friendly shopping interface
+-Product listings with detailed views
+-Filter products by color, price range, size, and availability
+-Shopping cart functionality
+-User authentication and account management
+-Responsive design with TailwindCSS
+-State management using Redux
+-Backend services and authentication handled by Supabase
+-Skeleton loader for product loading
 
 ## Getting Started
 
