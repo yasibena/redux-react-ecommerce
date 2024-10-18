@@ -51,8 +51,8 @@ To get started with this project, follow these steps:
    cd ecommerce
 
 ### Usage
-
    ```sh
    npm install
-    or
+   or
    yarn install
+
