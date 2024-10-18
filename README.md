@@ -51,6 +51,7 @@ To get started with this project, follow these steps:
    cd ecommerce
 
 ### Usage
+1. start project
    ```sh
    npm install
    or
