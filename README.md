@@ -50,8 +50,9 @@ To get started with this project, follow these steps:
    git clone https://github.com/yasibena/redux-react-ecommerce.git
    cd ecommerce
 
-2. Install dependencies:
-   ```sh
-   npm install
-   or
-   yarn install
+### Usage
+
+ ```sh
+ npm install
+  or
+ yarn install
