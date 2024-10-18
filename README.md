@@ -83,7 +83,7 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware)
 });
-``
+``js
 Inside the redux folder, there is a feature folder that contains the following slices:
 
 *   ProductSlice.js: Manages the state related to products.
