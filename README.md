@@ -63,12 +63,11 @@ Our Redux setup is organized into a redux folder. Within this folder, you'll fin
 Store Configuration
 The store.js file is responsible for configuring the Redux store. Here’s a snippet of how it’s set up:
 
-``sh
 import { configureStore } from "@reduxjs/toolkit";
 import productReducer from './feature/ProductSlice';
 import modalReducer from "./feature/modalSlice";
 import { apiSlice } from "./feature/apiSlice";
-import cartSlice from "./feature/cartSlice";
+import cartSlice from "./feature/cartSlice';
 import authReducer from './feature/authSlice';
 
 export const store = configureStore({
@@ -82,6 +81,7 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware)
 });
+
 
 Feature Folder
 Inside the redux folder, there is a feature folder that contains the following slices:
