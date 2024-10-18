@@ -118,5 +118,22 @@ function ProductCard({ product }) {
 }
 ```
 
+### Supabase Setup 
+Make sure to configure Supabase for backend services and authentication. You can sign up for a free account and create a new project at Supabase.
+1. Install Supabase dependencies:
+  ```sh
+npm install @supabase/supabase-js
+# or
+yarn add @supabase/supabase-js
+```
+2. Initialize Supabase in your project:
 
+```js
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = 'https://your-supabase-url.supabase.co';
+const supabaseKey = 'your-anon-key';
+export const supabase = createClient(supabaseUrl, supabaseKey);
+```
+3. Use Supabase for authentication and backend services throughout your app.
 
