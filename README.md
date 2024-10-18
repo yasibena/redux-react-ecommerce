@@ -102,3 +102,21 @@ Inside the redux folder, there is a feature folder that contains the�
 *   authSlice.js: Manages user authentication and related state.
     
 By organizing our Redux state management this way, we keep our code modular and easier to maintain.
+
+### TailwindCSS Setup
+TailwindCSS is already set up. You can start using it by adding classes to your components. For example:
+
+```js
+function ProductCard({ product }) {
+  return (
+    <div className="p-4 m-4 bg-white shadow-lg rounded-lg">
+      <h2 className="text-xl font-bold">{product.name}</h2>
+      <p className="text-gray-700">{product.description}</p>
+      <p className="text-green-500">${product.price}</p>
+    </div>
+  );
+}
+```
+
+
+
