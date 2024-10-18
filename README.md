@@ -52,5 +52,5 @@ To get started with this project, follow these steps:
 2. Install dependencies:
    ```sh
    npm install
-   # or
+   or
    yarn install
