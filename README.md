@@ -49,8 +49,9 @@ To get started with this project, follow these steps:
    git clone https://github.com/yasibena/redux-react-ecommerce.git
    cd ecommerce
 
-   Start the development server with Vite:
-   npm run dev
-   # or
-   yarn dev
-   Open your browser and visit http://localhost:3000 to see the app in action.
+2. Install dependencies:
+   ```sh
+Copy
+npm install
+# or
+yarn 
