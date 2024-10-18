@@ -52,7 +52,7 @@ To get started with this project, follow these steps:
 
 ### Usage
 
- ```sh
+   ```sh
    npm install
     or
    yarn install
