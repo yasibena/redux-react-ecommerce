@@ -91,7 +91,7 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware)
 });
-
+```
 
 Inside the redux folder, there is a feature folder that contains the following slices:
 
