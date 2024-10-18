@@ -1,10 +1,14 @@
-# eCommerce Clothing Shop
+# Ecommerce Clothing Shop
 
-Welcome to the eCommerce Clothing Shop project! This application is built using React, Redux, and TailwindCSS, and is bootstrapped with Vite. For backend services and authentication, we are using Supabase. It's designed to provide a seamless online shopping experience for clothing enthusiasts.
+Welcome to the Ecommerce Clothing Shop project! This application is built using React, Redux, and TailwindCSS, and is bootstrapped with Vite. For backend services and authentication, we are using Supabase. It's designed to provide a seamless online shopping experience for clothing enthusiasts.
 
 
 ## Demo
+### Home page
+![Screenshot_18-10-2024_9344_localhost](https://github.com/user-attachments/assets/f75a81ae-87a1-4154-a7a7-a5eee47fa3a1)
 
+### Shop page
+![Screenshot_18-10-2024_93529_localhost](https://github.com/user-attachments/assets/1c040bc5-d966-462d-ad24-ddd2d7fab2cb)
 
 ## Table of Contents
 
