@@ -51,6 +51,6 @@ To get started with this project, follow these steps:
 
 2. Install dependencies:
    ```sh
-   Copy
    npm install
-   yarn 
+   # or
+   yarn install
