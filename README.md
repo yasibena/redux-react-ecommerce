@@ -1,15 +1,15 @@
 # React Redux Ecommerce
 Ecommerce Website
-# Back-End Development
+## Back-End Development
 Supabase data base
-# Front-End Development Languages
+## Front-End Development Languages
 JavaScript
 HTML5
 CSS
 React
 TailwindCss
 
-# Project description :
+## Project description :
 
 
 
