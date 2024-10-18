@@ -60,10 +60,6 @@ To get started with this project, follow these steps:
 ### Redux Setup 
 Our Redux setup is organized into a `redux` folder. Within this folder, you'll find `store.js` which sets up the Redux store. Additionally, there is a `feature` folder that contains different slices for handling various parts of the state.
 
-#### Store Configuration
-
-The `store.js` file is responsible for configuring the Redux store. Here’s a snippet of how it’s set up:
-
 ### Redux Setup
 
 Our Redux setup is organized into a `redux` folder. Within this folder, you'll find `store.js` which sets up the Redux store. Additionally, there is a `feature` folder that contains different slices for handling various parts of the state.
