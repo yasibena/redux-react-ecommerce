@@ -53,6 +53,6 @@ To get started with this project, follow these steps:
 ### Usage
 
  ```sh
- npm install
-  or
- yarn install
+   npm install
+    or
+   yarn install
