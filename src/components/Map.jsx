@@ -1,4 +1,3 @@
-// AIzaSyCFYDto_PjwDmP50Un3ufwswpR7jS597Wc
 
 import React from "react";
 import GoogleMapReact from "google-map-react";
