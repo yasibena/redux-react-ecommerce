@@ -122,6 +122,11 @@ npm install @supabase/supabase-js
 # or
 yarn add @supabase/supabase-js
 ```
+  ```sh
+npm run dev
+```
+[this start project on loca](http://localhost:5173/)
+
 2. Initialize Supabase in your project:
 
 ```js
