@@ -57,9 +57,6 @@ To get started with this project, follow these steps:
    or
    yarn install
 
-### Redux Setup 
-Our Redux setup is organized into a `redux` folder. Within this folder, you'll find `store.js` which sets up the Redux store. Additionally, there is a `feature` folder that contains different slices for handling various parts of the state.
-
 ### Redux Setup
 
 Our Redux setup is organized into a `redux` folder. Within this folder, you'll find `store.js` which sets up the Redux store. Additionally, there is a `feature` folder that contains different slices for handling various parts of the state.
