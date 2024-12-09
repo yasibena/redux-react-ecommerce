@@ -26,11 +26,11 @@ export const Map = () => {
         <h2 className="map-h2 font-bold">اطلاعات شاپیفای</h2>
         <div className="google-map mx-[2rem]">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: "AIzaSyCFYDto_PjwDmP50Un3ufwswpR7jS597Wc" }}
+            bootstrapURLKeys={{ key: "Your key" }}
             defaultCenter={location}
             defaultZoom={17}>
           {/* <GoogleMapReact
-            bootstrapURLKeys={{ key: "AIzaSyCFYDto_PjwDmP50Un3ufwswpR7jS597Wc" }}
+            bootstrapURLKeys={{ key: "Your key" }}
             defaultCenter={location}
             defaultZoom={17}> */}
             <LocationPin
